@@ -8,6 +8,7 @@ import en_EN from "./coreFiles/en_EN.json";
 import { ToastContainer } from "react-toastify";
 import AppRouting from "./AppRouting.tsx";
 import { BrowserRouter } from "react-router";
+import "./coreFiles/app.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

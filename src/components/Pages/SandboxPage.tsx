@@ -9,6 +9,7 @@ import { CardSet, type Card } from "../../coreFiles/types.ts";
 import GuessingForm from "../SandboxMode/GuessingForm.tsx";
 import { getUnguessedCards } from "../../localStorage/mechanics.ts";
 import { AnimatePresence } from "framer-motion";
+import Hints from "../SandboxMode/Hints.tsx";
 
 const SandboxPage = () => {
   const [unguessedCards, setUnguessedCards] = React.useState(() =>
@@ -51,6 +52,7 @@ const SandboxPage = () => {
         currentCard={card}
         setCard={handleNextCard}
       />
+      <Hints card={card} />
     </Stack>
   );
 };

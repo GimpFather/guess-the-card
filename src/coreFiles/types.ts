@@ -1,16 +1,16 @@
 export enum CardClass {
-  DEATH_KNIGHT = "DEATH_KNIGHT",
-  DEMON_HUNTER = "DEMON_HUNTER",
-  DRUID = "DRUID",
-  HUNTER = "HUNTER",
-  MAGE = "MAGE",
-  PALADIN = "PALADIN",
-  PRIEST = "PRIEST",
-  ROGUE = "ROGUE",
-  SHAMAN = "SHAMAN",
-  WARLOCK = "WARLOCK",
-  WARRIOR = "WARRIOR",
-  NEUTRAL = "NEUTRAL",
+  DEATH_KNIGHT = "Death Knight 🦴",
+  DEMON_HUNTER = "Demon Hunter 🧼",
+  DRUID = "Druid 🌳",
+  HUNTER = "Hunter 🐊",
+  MAGE = "Mage 🔮",
+  PALADIN = "Paladin 🔆",
+  PRIEST = "Priest 💊",
+  ROGUE = "Rogue 💸",
+  SHAMAN = "Shaman 🌌",
+  WARLOCK = "Warlock 🎃",
+  WARRIOR = "Warrior 💪",
+  NEUTRAL = "Neutral 🎴",
 }
 
 export enum CardSet {
@@ -26,10 +26,10 @@ export enum CardType {
 }
 
 export enum CardRarity {
-  COMMON = "COMMON",
-  RARE = "RARE",
-  EPIC = "EPIC",
-  LEGENDARY = "LEGENDARY",
+  COMMON = "Common",
+  RARE = "Rare",
+  EPIC = "Epic",
+  LEGENDARY = "Legendary",
 }
 
 export interface Card {
