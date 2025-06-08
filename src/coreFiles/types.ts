@@ -33,9 +33,10 @@ export enum CardRarity {
 }
 
 export interface Card {
+  id: string;
   name: string;
   img: string;
-  emojiRiddle: string;
+  emojiRiddle: string[];
   cardSet: CardSet;
   class: CardClass;
   flavorText: string;

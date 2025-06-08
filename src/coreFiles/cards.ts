@@ -2,9 +2,10 @@ import { CardClass, CardRarity, CardSet, CardType, type Card } from "./types";
 
 export const CARDS: Card[] = [
   {
+    id: "1",
     name: "Tyrion Fordring",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c260dee5c2342d75f5af5dcc0a9816b99d3f9602c640fd22236612f0b3bb1232.png",
-    emojiRiddle: "🛡️👼💀⚔️🔥",
+    emojiRiddle: ["🛡️", "👼", "💀", "⚔️", "🔥"],
     cardSet: CardSet.CORE,
     class: CardClass.PALADIN,
     flavorText:
@@ -14,9 +15,10 @@ export const CARDS: Card[] = [
     cost: 8,
   },
   {
+    id: "2",
     name: "Leeroy Jenkins",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7740c50c88d17b12c3eccbf1c57af9163929add6c63bba7fbad663f574bc6307.png",
-    emojiRiddle: "🐉⚔️🏃‍♂️🍗💥",
+    emojiRiddle: ["🐉", "⚔️", "🏃‍♂️", "🍗", "💥"],
     cardSet: CardSet.CORE,
     class: CardClass.NEUTRAL,
     flavorText: "At least he has Angry Chicken.",
@@ -25,9 +27,10 @@ export const CARDS: Card[] = [
     cost: 5,
   },
   {
+    id: "3",
     name: "Varian Wrynn",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10768502ea2438abe55a7a623bb977ac01b1503a66cc19e013069c3ea811caaf.png",
-    emojiRiddle: "👑🗡️🗡️🎲🧍🧍🧍",
+    emojiRiddle: ["👑", "🗡️", "🗡️", "🎲", "🧍", "🧍", "🧍"],
     cardSet: CardSet.TGT,
     class: CardClass.WARRIOR,
     flavorText:
