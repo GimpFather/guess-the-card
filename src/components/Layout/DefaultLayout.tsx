@@ -6,7 +6,7 @@ const DefaultLayout = () => {
   return (
     <>
       <Navbar />
-      <Container maxWidth="xl" sx={{ paddingY: 2 }}>
+      <Container maxWidth="lg" sx={{ paddingY: 2 }}>
         <Outlet />
       </Container>
     </>

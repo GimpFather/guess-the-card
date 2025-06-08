@@ -1,25 +1,25 @@
-import {
-  Box,
-  Button,
-  Stack,
-  Typography,
-  useMediaQuery,
-  useTheme,
-} from "@mui/material";
+import { Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { FormattedMessage } from "react-intl";
-import StackedCards from "../HeroPage.tsx/StackedCards";
 import EmojiSliderRow from "../HeroPage.tsx/EmojiSliderRow";
+import ModePreview from "../HeroPage.tsx/ModePreview";
+import { motion } from "framer-motion";
 
 const DashboardPage = () => {
   const { breakpoints } = useTheme();
   const isMobile = useMediaQuery(breakpoints.down("md"));
 
   return (
-    <Stack gap={5}>
+    <Stack
+      gap={5}
+      alignItems="center"
+      component={motion.div}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+    >
       <EmojiSliderRow />
       <Stack
         gap={isMobile ? 1 : 0.25}
-        alignItems="center"
         justifyContent="center"
         sx={{
           marginTop: 10,
@@ -38,23 +38,21 @@ const DashboardPage = () => {
           <FormattedMessage id="HERO.SUBTITLE" />
         </Typography>
       </Stack>
-      <Stack alignItems="center">
-        <Button
-          variant="contained"
-          color="primary"
-          size="large"
-          sx={{
-            padding: 2,
-            fontSize: "1.25rem",
-            borderRadius: "16px",
-          }}
-        >
-          <FormattedMessage id="HERO.BUTTON.START_CHALLANGE" />
-        </Button>
+      <Stack
+        direction={isMobile ? "column" : "row"}
+        gap={2}
+        sx={{ marginTop: 10 }}
+      >
+        <ModePreview mode="sandbox" />
+        <ModePreview mode="challenge" />
       </Stack>
-      <Box sx={{ paddingY: 5 }}>
-        <StackedCards />
-      </Box>
+      <Typography
+        variant="h6"
+        fontWeight={300}
+        sx={{ textAlign: "center", marginTop: 10 }}
+      >
+        <FormattedMessage id="HERO.INFO" />
+      </Typography>
     </Stack>
   );
 };

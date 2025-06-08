@@ -7,11 +7,11 @@ import "@fontsource/lexend/700.css";
 const palette = {
   primary: {
     main: "#38A169",
-    light: "#68D391", // Lighter green
-    dark: "#2F855A", //
+    light: "#68D391",
+    dark: "#2F855A",
   },
   secondary: {
-    main: "#E53E3E",
+    main: "#d32f2f",
   },
   background: {
     default: "#efefef",
@@ -51,14 +51,7 @@ export const defaultTheme = createTheme({
     MuiFormLabel: {
       styleOverrides: {
         root: {
-          color: palette.common.white,
-        },
-      },
-    },
-    MuiInputAdornment: {
-      styleOverrides: {
-        root: {
-          color: palette.common.white,
+          color: palette.common.black,
         },
       },
     },
@@ -66,47 +59,6 @@ export const defaultTheme = createTheme({
       defaultProps: {
         autoComplete: "off",
       },
-    },
-    MuiDialog: {
-      styleOverrides: {
-        paper: {
-          borderRadius: "16px",
-        },
-      },
-    },
-    MuiButton: {
-      styleOverrides: {
-        root: {
-          borderRadius: "16px",
-          textTransform: "none",
-          fontSize: "1rem",
-        },
-      },
-      variants: [
-        {
-          props: { variant: "outlined" },
-          style: {
-            color: palette.primary.main,
-            border: `2px solid ${palette.primary.main}`,
-          },
-        },
-        {
-          props: { variant: "text" },
-          style: {
-            ":hover": {
-              backgroundColor: "unset",
-            },
-          },
-        },
-        {
-          props: { variant: "contained", color: "primary" },
-          style: {
-            ":hover": {
-              backgroundColor: palette.primary.dark,
-            },
-          },
-        },
-      ],
     },
   },
 });
