@@ -10,6 +10,7 @@ import {
 import { type Card } from "../../coreFiles/types";
 import { FormattedMessage } from "react-intl";
 import { toast } from "react-toastify";
+import { markCardAsGuessed } from "../../localStorage/mechanics";
 
 interface FormData extends FieldValues {
   "Card Name": string;
@@ -17,10 +18,9 @@ interface FormData extends FieldValues {
 
 interface GuessingFormProps {
   setGuessed: (guessed: boolean) => void;
-  currentCard: string;
+  currentCard: Card;
   guessed: boolean;
   setCard: (card: Card) => void;
-  setScore: React.Dispatch<React.SetStateAction<number>>;
 }
 
 const GuessingForm = ({
@@ -28,17 +28,16 @@ const GuessingForm = ({
   currentCard,
   guessed,
   setCard,
-  setScore,
 }: GuessingFormProps) => {
   const { register, handleSubmit, watch, reset } = useForm<FormData>();
 
   const onSubmit = (data: FormData) => {
     const playerGuess = data["Card Name"].trim().toLowerCase();
-    const correctName = currentCard.toLowerCase();
+    const correctName = currentCard.name.toLowerCase();
 
     if (playerGuess === correctName) {
       setGuessed(true);
-      setScore((prev: number) => prev + 1);
+      markCardAsGuessed(currentCard.id);
       toast.success(getRandomSuccessMessage());
     } else {
       setGuessed(false);

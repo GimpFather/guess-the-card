@@ -13,18 +13,24 @@ const Riddle = ({ riddle }: RiddleProps) => {
       justifyContent="center"
       gap={0.25}
     >
-      {riddle.map((line, index) => (
-        <Typography
-          component={motion.div}
-          key={index}
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, delay: index * 0.2 }}
-          variant="h3"
-        >
-          {line}
-        </Typography>
-      ))}
+      <motion.div
+        style={{ display: "flex", gap: "0.25rem" }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.3 }}
+      >
+        {riddle.map((line, index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: index * 0.2 }}
+          >
+            <Typography variant="h3">{line}</Typography>
+          </motion.div>
+        ))}
+      </motion.div>
     </Stack>
   );
 };
