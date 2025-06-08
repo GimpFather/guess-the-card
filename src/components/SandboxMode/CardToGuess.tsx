@@ -5,7 +5,7 @@ import BackCard from "./BackCard";
 
 interface CardToGuessProps {
   numberOfEmojies: number;
-  watched: boolean;
+  guessed: boolean;
   backCardImg: string;
   frontCardImg: string;
   name: string;
@@ -13,7 +13,7 @@ interface CardToGuessProps {
 
 const CardToGuess = ({
   numberOfEmojies,
-  watched,
+  guessed,
   backCardImg,
   frontCardImg,
   name,
@@ -43,7 +43,7 @@ const CardToGuess = ({
           animate={{
             opacity: 1,
             y: 0,
-            rotateY: watched ? 180 : 0,
+            rotateY: guessed ? 180 : 0,
           }}
           transition={{
             duration: 0.6,

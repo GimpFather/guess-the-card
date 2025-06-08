@@ -24,5 +24,8 @@
   "SANDBOX.TITLE": "Sandbox Mode",
   "SANDBOX.SCORE": "- Score: {score} {order}",
   "SANDBOX.SCORE.TOOLTIP": "Look at him going.",
-  "SANDBOX.GAME.TITLE": "The riddle goes:"
+  "SANDBOX.GAME.TITLE": "The riddle goes:",
+  "GUESSING_FORM.BUTTON.CHECK": "Check",
+  "GUESSING_FORM.BUTTON.NEXT_CARD": "Next Card",
+  "GUESSING_FORM.LABEL.CARD_NAME": "Card name"
 }

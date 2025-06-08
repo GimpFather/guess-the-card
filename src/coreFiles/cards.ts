@@ -3,7 +3,7 @@ import { CardClass, CardRarity, CardSet, CardType, type Card } from "./types";
 export const CARDS: Card[] = [
   {
     id: "1",
-    name: "Tyrion Fordring",
+    name: "Tirion Fordring",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c260dee5c2342d75f5af5dcc0a9816b99d3f9602c640fd22236612f0b3bb1232.png",
     emojiRiddle: ["🛡️", "👼", "💀", "⚔️", "🔥"],
     cardSet: CardSet.CORE,
