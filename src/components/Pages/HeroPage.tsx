@@ -3,6 +3,7 @@ import { FormattedMessage } from "react-intl";
 import EmojiSliderRow from "../HeroPage.tsx/EmojiSliderRow";
 import ModePreview from "../HeroPage.tsx/ModePreview";
 import { motion } from "framer-motion";
+import { clearGuessedCards } from "../../localStorage/mechanics.ts";
 
 const DashboardPage = () => {
   const { breakpoints } = useTheme();
@@ -46,13 +47,34 @@ const DashboardPage = () => {
         <ModePreview mode="sandbox" />
         <ModePreview mode="challenge" />
       </Stack>
-      <Typography
-        variant="h6"
-        fontWeight={300}
-        sx={{ textAlign: "center", marginTop: 10 }}
-      >
-        <FormattedMessage id="HERO.INFO" />
-      </Typography>
+      <Stack gap={0.25}>
+        <Typography
+          variant="h6"
+          fontWeight={300}
+          sx={{ textAlign: "center", marginTop: 10 }}
+        >
+          <FormattedMessage id="HERO.INFO.1" />
+        </Typography>
+        <Typography variant="h6" fontWeight={300} sx={{ textAlign: "center" }}>
+          <FormattedMessage id="HERO.INFO.2" />
+          <Typography
+            component="span"
+            variant="h6"
+            fontWeight={300}
+            sx={{
+              textAlign: "center",
+              color: "primary.main",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+            onClick={() => {
+              clearGuessedCards();
+            }}
+          >
+            <FormattedMessage id="HERO.INFO.2.SPAN" />
+          </Typography>
+        </Typography>
+      </Stack>
     </Stack>
   );
 };

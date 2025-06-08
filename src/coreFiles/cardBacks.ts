@@ -1,6 +1,6 @@
-import { CardSet } from "./types";
+import { CardSet, type CardBack } from "./types";
 
-const CARD_BACKS = [
+const CARD_BACKS: CardBack[] = [
   {
     name: "Tournament Grounds",
     cardSet: CardSet.TGT,

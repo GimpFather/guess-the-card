@@ -10,13 +10,15 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 interface HintProps {
   title: React.ReactNode;
   description: string;
+  cardId: string;
 }
 
-const Hint = ({ title, description }: HintProps) => {
+const Hint = ({ title, description, cardId }: HintProps) => {
   const { palette } = useTheme();
 
   return (
     <Accordion
+      key={cardId}
       elevation={0}
       sx={{
         width: 350,

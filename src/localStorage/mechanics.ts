@@ -21,3 +21,7 @@ export const getUnguessedCards = (allCards: Card[]): Card[] => {
   const guessedIds: string[] = getGuessedCards();
   return allCards.filter((card) => !guessedIds.includes(card.id));
 };
+
+export const clearGuessedCards = () => {
+  localStorage.setItem("guessedCards", JSON.stringify([]));
+};

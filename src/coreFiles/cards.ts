@@ -1,42 +1,78 @@
-import { CardClass, CardRarity, CardSet, CardType, type Card } from "./types";
+import { CardClass, CardRarity, CardSet, type Card } from "./types";
 
 export const CARDS: Card[] = [
   {
     id: "1",
     name: "Tirion Fordring",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c260dee5c2342d75f5af5dcc0a9816b99d3f9602c640fd22236612f0b3bb1232.png",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🛡️", "👼", "💀", "⚔️", "🔥"],
     cardSet: CardSet.CORE,
     class: CardClass.PALADIN,
     flavorText:
       "If you haven't heard the <CARD NAME> theme song, it's because it doesn't exist",
-    type: CardType.MINION,
     rarity: CardRarity.LEGENDARY,
     cost: 8,
+    emoji: "🛡️",
   },
   {
     id: "2",
+    name: "Explosive Sheep",
+    img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5aa30416aaf9f9e81df53c436fe92c47e98d8fae7c34fc15f46f8b249f1143d1.png",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69ffc53bc47a3c6c397c6d34566db38779fb425e416246f9cd1b5827f91f8423.png",
+    emojiRiddle: ["🧨", "🐑", "💀", "🔥"],
+    cardSet: CardSet.MCN,
+    class: CardClass.NEUTRAL,
+    flavorText:
+      "How is this supposed to work? Your enemies think, 'Hey! Cute sheep!' and run over to cuddle it?",
+    rarity: CardRarity.COMMON,
+    cost: 2,
+    emoji: "🐑",
+  },
+  {
+    id: "3",
     name: "Leeroy Jenkins",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7740c50c88d17b12c3eccbf1c57af9163929add6c63bba7fbad663f574bc6307.png",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🐉", "⚔️", "🏃‍♂️", "🍗", "💥"],
     cardSet: CardSet.CORE,
     class: CardClass.NEUTRAL,
     flavorText: "At least he has Angry Chicken.",
-    type: CardType.MINION,
     rarity: CardRarity.LEGENDARY,
     cost: 5,
+    emoji: "🍗",
   },
   {
-    id: "3",
+    id: "4",
     name: "Varian Wrynn",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10768502ea2438abe55a7a623bb977ac01b1503a66cc19e013069c3ea811caaf.png",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["👑", "🗡️", "🗡️", "🎲", "🧍", "🧍", "🧍"],
     cardSet: CardSet.TGT,
     class: CardClass.WARRIOR,
     flavorText:
       "Leader of the Alliance! Father of Anduin! Also he likes to play Arena, and he averages 12 wins.",
-    type: CardType.MINION,
     rarity: CardRarity.LEGENDARY,
     cost: 10,
+    emoji: "👑",
+  },
+  {
+    id: "5",
+    name: "Prince Renathal",
+    img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3241d462c4d2b47914d55ef3af75cfc45a381f8ebb2b0a8c07b9df24f0d0a774.png",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03c2c934c615a0dd5aab858273b96e488961a20cddbf34b8c21d957712bcbfcf.png",
+    emojiRiddle: ["4️⃣", "0️⃣"],
+    cardSet: CardSet.MCN,
+    class: CardClass.NEUTRAL,
+    flavorText:
+      "A lot of kids go through a rebellious phase, but <card name>'s was a bit extreme.",
+    rarity: CardRarity.LEGENDARY,
+    cost: 3,
+    emoji: "🍷",
   },
 ];

@@ -1,11 +1,10 @@
 import { Button, Stack, TextField } from "@mui/material";
 import { useForm } from "react-hook-form";
 import type { FieldValues } from "react-hook-form";
-import { CARDS } from "../../coreFiles/cards";
 import {
-  getRandomCard,
   getRandomFailMessage,
   getRandomSuccessMessage,
+  launchEmojiConfetti,
 } from "../../utils";
 import { type Card } from "../../coreFiles/types";
 import { FormattedMessage } from "react-intl";
@@ -20,7 +19,7 @@ interface GuessingFormProps {
   setGuessed: (guessed: boolean) => void;
   currentCard: Card;
   guessed: boolean;
-  setCard: (card: Card) => void;
+  setCard: () => void;
 }
 
 const GuessingForm = ({
@@ -38,6 +37,7 @@ const GuessingForm = ({
     if (playerGuess === correctName) {
       setGuessed(true);
       markCardAsGuessed(currentCard.id);
+      launchEmojiConfetti(currentCard.emoji);
       toast.success(getRandomSuccessMessage());
     } else {
       setGuessed(false);
@@ -73,7 +73,7 @@ const GuessingForm = ({
             onClick={() => {
               setGuessed(false);
               reset();
-              setCard(getRandomCard(CARDS)!);
+              setCard();
             }}
           >
             <FormattedMessage id="GUESSING_FORM.BUTTON.NEXT_CARD" />

@@ -1,17 +1,6 @@
-import CARD_BACKS from "./coreFiles/cardBacks";
 import FAIL_MESSAGES from "./coreFiles/FAIL_MESSAGES";
 import SUCCESS_MESSAGES from "./coreFiles/SUCCESS_MESSAGES";
-import type { Card, CardSet } from "./coreFiles/types";
-
-export const getRandomCard = (cards: Card[]) => {
-  return cards[Math.floor(Math.random() * cards.length)];
-};
-
-export const getBackCard = (cardSet: CardSet) => {
-  return (
-    CARD_BACKS.find((backCard) => backCard.cardSet === cardSet) ?? CARD_BACKS[0]
-  );
-};
+import confetti from "canvas-confetti";
 
 export const getRandomSuccessMessage = () => {
   return (
@@ -26,3 +15,72 @@ export const getRandomFailMessage = () => {
     FAIL_MESSAGES[0]
   );
 };
+
+export const launchFireworks = () => {
+  confetti.reset();
+  const duration = 3000;
+  const end = Date.now() + duration;
+
+  const colors = ["#bb0000", "#ffffff"];
+
+  (function frame() {
+    confetti({
+      particleCount: 4,
+      angle: 60,
+      spread: 55,
+      origin: { x: 0 },
+      colors,
+    });
+    confetti({
+      particleCount: 4,
+      angle: 120,
+      spread: 55,
+      origin: { x: 1 },
+      colors,
+    });
+
+    if (Date.now() < end) {
+      requestAnimationFrame(frame);
+    }
+  })();
+};
+
+export function launchEmojiConfetti(emoji: string) {
+  const scalar = 3;
+  const emojiShape = confetti.shapeFromText({ text: emoji, scalar });
+
+  const baseConfettiOptions = {
+    spread: 360,
+    ticks: 100,
+    gravity: 0.3,
+    decay: 0.96,
+    startVelocity: 20,
+    scalar,
+    shapes: [emojiShape],
+  };
+
+  const shoot = () => {
+    confetti({
+      ...baseConfettiOptions,
+      particleCount: 30,
+    });
+
+    confetti({
+      ...baseConfettiOptions,
+      particleCount: 5,
+      flat: true,
+    });
+
+    confetti({
+      ...baseConfettiOptions,
+      particleCount: 15,
+      scalar: scalar / 2,
+      shapes: ["circle"],
+    });
+  };
+
+  shoot();
+  setTimeout(shoot, 100);
+  setTimeout(shoot, 200);
+  setTimeout(shoot, 300);
+}

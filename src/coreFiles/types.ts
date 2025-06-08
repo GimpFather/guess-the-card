@@ -16,6 +16,7 @@ export enum CardClass {
 export enum CardSet {
   CORE = "Core",
   TGT = "The Grand Tournament",
+  MCN = "Murder at Castle Nathria",
 }
 
 export enum CardType {
@@ -36,11 +37,18 @@ export interface Card {
   id: string;
   name: string;
   img: string;
+  imgBack: string;
   emojiRiddle: string[];
   cardSet: CardSet;
   class: CardClass;
   flavorText: string;
-  type: CardType;
   rarity: CardRarity;
   cost: number;
+  emoji: string;
+}
+
+export interface CardBack {
+  name: string;
+  cardSet: CardSet;
+  img: string;
 }

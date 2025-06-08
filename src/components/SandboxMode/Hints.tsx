@@ -13,18 +13,22 @@ const Hints = ({ card }: HintsProps) => {
       <Hint
         title={<FormattedMessage id="SANDBOX.MODE.HINTS.CLASS" />}
         description={card.class}
+        cardId={card.id}
       />
       <Hint
         title={<FormattedMessage id="SANDBOX.MODE.HINTS.FLAVOR_TEXT" />}
         description={card.flavorText}
+        cardId={card.id}
       />
       <Hint
         title={<FormattedMessage id="SANDBOX.MODE.HINTS.RARITY" />}
         description={card.rarity}
+        cardId={card.id}
       />
       <Hint
         title={<FormattedMessage id="SANDBOX.MODE.HINTS.MANA_COST" />}
         description={card.cost.toString()}
+        cardId={card.id}
       />
     </Stack>
   );
