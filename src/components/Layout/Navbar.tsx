@@ -2,6 +2,7 @@ import { Container, Stack, Typography } from "@mui/material";
 import Cards from "../General/Cards";
 import { FormattedMessage } from "react-intl";
 import { useNavigate } from "react-router";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -11,7 +12,14 @@ const Navbar = () => {
   };
 
   return (
-    <Container maxWidth="lg" sx={{ padding: 2 }}>
+    <Container
+      maxWidth="lg"
+      sx={{ padding: 2 }}
+      component={motion.div}
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <Stack direction="row" justifyContent="space-between" alignItems="center">
         <Stack
           gap={1.5}
