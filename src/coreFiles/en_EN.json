@@ -1,3 +1,11 @@
 {
-  "TEST_KEY": "TEST_VALUE"
+  "TEST_KEY": "TEST_VALUE",
+  "NAVBAR.TITLE": "Guess the Card",
+  "NAVBAR.BY": "by GimpFather",
+  "NAVBAR.CONTACT": "Contact",
+  "HERO.EMOJI.TITLE.1": "🤔👻💫🤺🥺🙏💀👉👈🙈🤴👸👃💣👀💟🙅‍♂️👼🧙🧜‍♂️🐵🐬🐧",
+  "HERO.EMOJI.TITLE.2": "👣🦘🦃🦟🍔🏋️‍♀️🏇👄💬🥳😎🤑🥵🥶👉👌🧠👨‍💻🦱🍌🎡🎠🛸",
+  "HERO.TITLE": "Guess the Card",
+  "HERO.SUBTITLE": "Look at 2-4 different emojies that are someway connected with the Hearthstone card and guess the card name.",
+  "HERO.BUTTON.START_CHALLANGE": "💫 Start the Guessing Game 💬"
 }

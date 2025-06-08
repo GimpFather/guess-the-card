@@ -1,5 +1,8 @@
 import { createTheme } from "@mui/material";
-// import "@fontsource/outfit";
+import "@fontsource/lexend/300.css";
+import "@fontsource/lexend/400.css";
+import "@fontsource/lexend/500.css";
+import "@fontsource/lexend/700.css";
 
 const palette = {
   primary: {
@@ -19,15 +22,15 @@ const palette = {
     white: "#F9F9F9",
   },
   text: {
-    primary: "#F9F9F9",
-    secondary: "#050D06",
+    primary: "#050D06",
+    secondary: "#F9F9F9",
   },
 };
 
 export const defaultTheme = createTheme({
   palette,
   typography: {
-    fontFamily: `'Outfit', sans-serif`,
+    fontFamily: `'Lexend', sans-serif`,
     fontWeightLight: 300,
     fontWeightRegular: 400,
     fontWeightMedium: 500,
