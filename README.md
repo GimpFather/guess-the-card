@@ -1,54 +1,59 @@
-# React + TypeScript + Vite
+# 🎴 Guess the Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun, emoji-based guessing game built for the Hearthstone community and streamer **[Rarran](https://www.youtube.com/c/Rarran)**.  
+Made just for fun — and also as an excuse to play around with **Cursor** IDE.  
+Btw. I'm more design person than logical so it was a little bit challaning!
 
-Currently, two official plugins are available:
+![GitHub repo size](https://img.shields.io/github/repo-size/GimpFather/guess-the-card)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![React](https://img.shields.io/badge/react-19.1.0-blue)
+![MUI](https://img.shields.io/badge/MUI-7.1.1-blueviolet)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Game
 
-## Expanding the ESLint configuration
+Check it out here: _https://guess-the-hs-card.netlify.app/_
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🧩 Gameplay
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+You're shown a set of emojis that symbolically hint at a Hearthstone card.  
+Your task? Guess the card name based on those clues.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+There’s no timer, no rush. Just pure guessing fun.  
+Use hints if you get stuck — they’re free.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Your progress is saved in your browser (local storage), and you can reset it anytime.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+---
+
+## 🛠️ Built With
+
+This project was developed using modern React tools and libraries:
+
+- **[React 19](https://react.dev/)** – UI library
+- **[Material UI (MUI)](https://mui.com/)** – component library
+- **[Framer Motion](https://www.framer.com/motion/)** – animations
+- **[canvas-confetti](https://www.npmjs.com/package/canvas-confetti)** – for celebratory effects
+- **[React Hook Form](https://react-hook-form.com/)** – form handling
+- **[React Intl](https://formatjs.io/docs/react-intl/)** – internationalization support
+- **[React Router v7](https://reactrouter.com/)** – routing
+- **[React Toastify](https://fkhadra.github.io/react-toastify/)** – toast notifications
+
+### Dev Dependencies
+
+```json
+{
+  "@emotion/react": "^11.14.0",
+  "@emotion/styled": "^11.14.0",
+  "@fontsource/lexend": "^5.2.8",
+  "@mui/icons-material": "^7.1.1",
+  "@mui/material": "^7.1.1",
+  "canvas-confetti": "^1.9.3",
+  "framer-motion": "^12.16.0",
+  "react": "^19.1.0",
+  "react-dom": "^19.1.0",
+  "react-hook-form": "^7.57.0",
+  "react-intl": "^7.1.11",
+  "react-router": "^7.6.2",
+  "react-toastify": "^11.0.5"
+}
 ```
