@@ -19,6 +19,8 @@ const Game = ({ unguessedCards, setUnguessedCards }: GameProps) => {
   const [card, setCard] = React.useState<Card>(unguessedCards[0] as Card);
   const [guessed, setGuessed] = React.useState(false);
 
+  const mode = new URLSearchParams(window.location.search).get("mode");
+
   React.useEffect(() => {
     setUnguessedCards(getUnguessedCards(CARDS));
   }, [guessed]);
@@ -30,7 +32,7 @@ const Game = ({ unguessedCards, setUnguessedCards }: GameProps) => {
 
   return (
     <Stack gap={5}>
-      <TitleAndScore score={CARDS.length - unguessedCards.length} />
+      <TitleAndScore score={CARDS.length - unguessedCards.length} mode={mode} />
       <AnimatePresence mode="wait">
         <Riddle key={card.id} riddle={card.emojiRiddle} />
       </AnimatePresence>
@@ -42,15 +44,18 @@ const Game = ({ unguessedCards, setUnguessedCards }: GameProps) => {
           name={card.name}
           numberOfEmojies={card.emojiRiddle.length}
           guessed={guessed}
+          mode={mode}
         />
       </AnimatePresence>
-      <GuessingForm
-        setGuessed={setGuessed}
-        guessed={guessed}
-        currentCard={card}
-        setCard={handleNextCard}
-      />
-      <Hints card={card} />
+      <AnimatePresence mode="wait">
+        <GuessingForm
+          setGuessed={setGuessed}
+          guessed={guessed}
+          currentCard={card}
+          setCard={handleNextCard}
+        />
+        <Hints card={card} />
+      </AnimatePresence>
     </Stack>
   );
 };

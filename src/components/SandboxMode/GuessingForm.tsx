@@ -10,6 +10,7 @@ import { type Card } from "../../coreFiles/types";
 import { FormattedMessage } from "react-intl";
 import { toast } from "react-toastify";
 import { markCardAsGuessed } from "../../localStorage/mechanics";
+import { motion } from "framer-motion";
 
 interface FormData extends FieldValues {
   "Card Name": string;
@@ -47,7 +48,14 @@ const GuessingForm = ({
   };
 
   return (
-    <Stack spacing={3} alignItems="center">
+    <Stack
+      spacing={3}
+      alignItems="center"
+      component={motion.div}
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3 }}
+    >
       <form onSubmit={handleSubmit(onSubmit)}>
         <Stack gap={2}>
           <Stack direction="row" gap={2}>

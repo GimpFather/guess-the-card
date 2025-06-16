@@ -39,7 +39,7 @@ const Navbar = () => {
           </Stack>
         </Stack>
         <Typography variant="h6" color="common.black" fontWeight={300}>
-          <FormattedMessage id="NAVBAR.CONTACT" />
+          <FormattedMessage id="NAVBAR.ABOUT" />
         </Typography>
       </Stack>
     </Container>

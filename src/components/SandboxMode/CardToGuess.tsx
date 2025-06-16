@@ -9,6 +9,7 @@ interface CardToGuessProps {
   backCardImg: string;
   frontCardImg: string;
   name: string;
+  mode: string | null;
 }
 
 const CardToGuess = ({
@@ -17,7 +18,14 @@ const CardToGuess = ({
   backCardImg,
   frontCardImg,
   name,
+  mode,
 }: CardToGuessProps) => {
+  const isChallenge = mode === "challenge";
+  const CLASSIC_CARD_BACK =
+    "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png";
+
+  const cardTail = isChallenge ? CLASSIC_CARD_BACK : backCardImg;
+
   return (
     <motion.div exit={{ opacity: 0, scale: 0 }}>
       <Stack
@@ -56,7 +64,7 @@ const CardToGuess = ({
             }}
           >
             <FrontCard imgSrc={frontCardImg} name={name} />
-            <BackCard imgSrc={backCardImg} name={name} />
+            <BackCard imgSrc={cardTail} name={name} />
           </motion.div>
         </Box>
       </Stack>

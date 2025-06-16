@@ -26,7 +26,7 @@ const ModePreview = ({ mode }: ModePreviewProps) => {
   const modeColor = isSandbox ? palette.primary.main : palette.secondary.main;
 
   const handleClick = () => {
-    navigate(`/${mode}`);
+    navigate(`/sandbox${isSandbox ? "" : "?mode=challenge"}`);
   };
 
   return (
@@ -70,9 +70,6 @@ const ModePreview = ({ mode }: ModePreviewProps) => {
             <Typography variant="body2">
               <FormattedMessage id="HERO.MODE.CHALLENGE.RULES.3" />
             </Typography>
-            <Typography variant="body2">
-              <FormattedMessage id="HERO.MODE.CHALLENGE.RULES.4" />
-            </Typography>
           </>
         )}
         {isSandbox && (
@@ -85,9 +82,6 @@ const ModePreview = ({ mode }: ModePreviewProps) => {
             </Typography>
             <Typography variant="body2">
               <FormattedMessage id="HERO.MODE.SANDBOX.RULES.3" />
-            </Typography>
-            <Typography variant="body2">
-              <FormattedMessage id="HERO.MODE.SANDBOX.RULES.4" />
             </Typography>
           </>
         )}
