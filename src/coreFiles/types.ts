@@ -13,12 +13,6 @@ export enum CardClass {
   NEUTRAL = "Neutral 🎴",
 }
 
-export enum CardSet {
-  CORE = "Core",
-  TGT = "The Grand Tournament",
-  MCN = "Murder at Castle Nathria",
-}
-
 export enum CardType {
   MINION = "MINION",
   SPELL = "SPELL",
@@ -39,7 +33,6 @@ export interface Card {
   img: string;
   imgBack: string;
   emojiRiddle: string[];
-  cardSet: CardSet;
   class: CardClass;
   flavorText: string;
   rarity: CardRarity;
@@ -49,6 +42,5 @@ export interface Card {
 
 export interface CardBack {
   name: string;
-  cardSet: CardSet;
   img: string;
 }
