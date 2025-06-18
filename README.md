@@ -25,6 +25,10 @@ Your progress is saved in your browser (local storage), and you can reset it any
 
 ---
 
+## 🤝 Want to Join the Fun?
+If you’ve got a knack for creative thinking and want to help come up with new emoji-based card puzzles, I’d love to hear from you!
+Feel free to message me on Discord: gimpfather
+
 ## 🛠️ Built With
 
 This project was developed using modern React tools and libraries:
