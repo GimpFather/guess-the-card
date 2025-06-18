@@ -2,25 +2,25 @@ import { CardClass, CardRarity, type Card } from "./types";
 
 export const CARDS: Card[] = [
   {
-    id: "GVG_028",
-    name: "Trade Prince Gallywix",
-    img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f98ffe545086ab728721e032014a1129569806ccac803aa27973396778f80b49.png",
+    id: "MIS_916",
+    name: "Pro Gamer",
+    img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01627426a8731510d80d24893e2f5c57196f195b96a1ed5f2b17d6073d1d4a40.png",
     imgBack:
-      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69ffc53bc47a3c6c397c6d34566db38779fb425e416246f9cd1b5827f91f8423.png",
-    emojiRiddle: ["🤴", "👃", "💰"],
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ad3aaf8d80c894fb7ea4a8441d6e40d3b92687a5169617a2699a947c74ef8fc.png",
+    emojiRiddle: ["🗻", "✂️", "🧻"],
     class: CardClass.NEUTRAL,
     flavorText:
-      "<Card Name> believes in supply and demand. He supplies the beatings and demands you pay up!",
-    rarity: CardRarity.LEGENDARY,
-    cost: 6,
-    emoji: "💰",
+      "Wow... who could have guessed? Another rock user ruining the meta for everyone as usual.",
+    rarity: CardRarity.EPIC,
+    cost: 2,
+    emoji: "✂️",
   },
   {
     id: "OG_134",
     name: "Yogg-Saron, Hope's End",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf8acfa0e025453585a0e9e2767ba381745955f0235b1eac5fa6a56deeb650e5.png",
     imgBack:
-      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ea2f07dc8f98abaff01a391e8a90620d2bc02fcb4c3e0bcc5157f6835793e484.png",
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66c27d11b062bd227beebda0e635bf3ff6b7462c79e27267825fa7b56fdc3610.png",
     emojiRiddle: ["🌌", "🌀", "🎲", "📜", "💥", "❓"],
     class: CardClass.NEUTRAL,
     flavorText: "I spell your doom... Y-O-U-R D-O-O-M!",
@@ -83,18 +83,18 @@ export const CARDS: Card[] = [
     emoji: "🐑",
   },
   {
-    id: "MIS_916",
-    name: "Pro Gamer",
-    img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01627426a8731510d80d24893e2f5c57196f195b96a1ed5f2b17d6073d1d4a40.png",
+    id: "GVG_028",
+    name: "Trade Prince Gallywix",
+    img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f98ffe545086ab728721e032014a1129569806ccac803aa27973396778f80b49.png",
     imgBack:
-      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/54b92bc54c364ea4f9ce6523eeca3e102ad6d14d59f3f142857a8238e2c1b489.png",
-    emojiRiddle: ["🗻", "✂️", "🧻"],
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69ffc53bc47a3c6c397c6d34566db38779fb425e416246f9cd1b5827f91f8423.png",
+    emojiRiddle: ["🤴", "👃", "💰"],
     class: CardClass.NEUTRAL,
     flavorText:
-      "Wow... who could have guessed? Another rock user ruining the meta for everyone as usual.",
-    rarity: CardRarity.EPIC,
-    cost: 2,
-    emoji: "✂️",
+      "<Card Name> believes in supply and demand. He supplies the beatings and demands you pay up!",
+    rarity: CardRarity.LEGENDARY,
+    cost: 6,
+    emoji: "💰",
   },
   {
     id: "EX1_295",
@@ -127,7 +127,8 @@ export const CARDS: Card[] = [
     id: "GIFT_04",
     name: "Arthas's Gift",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/04cde3dbed79f0db3e41061da6e0eaeb7c61004764c8d2a0ea6bd72f5b55cfc4.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["👑", "💀", "🎁"],
     class: CardClass.DEATH_KNIGHT,
     flavorText: "Now try it on. <Card Name>",
@@ -139,7 +140,8 @@ export const CARDS: Card[] = [
     id: "EX1_604",
     name: "Frothing Berserker",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e92abfbf695b562aeca82ba8fad3873ef4a9fc08f8d619e754429cabe8cb715.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["👺", "👺", "👺"],
     class: CardClass.WARRIOR,
     flavorText:
@@ -152,7 +154,8 @@ export const CARDS: Card[] = [
     id: "SW_323",
     name: "The Rat King",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7f7188ca385fba823eda1806cd5b32b23b3e6a830ac375d80873027bede501c6.png",
-    imgBack: "United in Stormwind",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7fe1dcd2aba568921dcfcc6523cb9e2bd099ebe62417273543e2331bd5502ca3.png",
     emojiRiddle: ["🐀", "👑"],
     class: CardClass.HUNTER,
     flavorText: '"I\'m the giant rat that makes all of da rules!"',
@@ -164,7 +167,8 @@ export const CARDS: Card[] = [
     id: "CFM_806",
     name: "Wrathion",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ea4fb17a46bb4d35686878edfe9f8e0b80075ef0fab5157b9624c760e2232307.png",
-    imgBack: "Mean Streets of Gadgetzan",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d8c664aa30d407fd2cdfe9d19017380d5278f0f3244cd3ab826c6cbc571d5de9.png",
     emojiRiddle: ["🎴", "🎴", "🎴", "🎴", "🎴", "🎴", "🐲"],
     class: CardClass.NEUTRAL,
     flavorText:
@@ -177,7 +181,8 @@ export const CARDS: Card[] = [
     id: "OG_280",
     name: "C'Thun",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0a80eb5606e786b5ec44399de8994360e7ee3e3dd377f2f62ebaa4ece071445.png",
-    imgBack: "Whispers of the Old Gods",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66c27d11b062bd227beebda0e635bf3ff6b7462c79e27267825fa7b56fdc3610.png",
     emojiRiddle: ["👁️‍🗨️", "📈", "💀", "🐙"],
     class: CardClass.NEUTRAL,
     flavorText: "C'Thun's least favorite Hearthstone card: Eye for an Eye.",
@@ -189,7 +194,8 @@ export const CARDS: Card[] = [
     id: "EX1_560",
     name: "Nozdormu",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc0b1fdbf9ffd537febd6e51d67e2b9c26ce75aac10dd79a1d6413d3bfd2f071.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🐉", "🕑"],
     class: CardClass.NEUTRAL,
     flavorText: "Time to write some flavor text.",
@@ -201,7 +207,8 @@ export const CARDS: Card[] = [
     id: "GVG_015",
     name: "Darkbomb",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a29df522630b812e5fcc7425a45e04f4469bbf1e5035f2a91921069e6df49975.png",
-    imgBack: "Goblins vs Gnomes",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69ffc53bc47a3c6c397c6d34566db38779fb425e416246f9cd1b5827f91f8423.png",
     emojiRiddle: ["⬛", "💣"],
     class: CardClass.WARLOCK,
     flavorText:
@@ -227,7 +234,8 @@ export const CARDS: Card[] = [
     id: "EX1_012",
     name: "Bloodmage Thalnos",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da38ca86d8dd453e55877fa4d1296bb2393f9ceaa51300f67529520dd4a64894.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["💀", "🧙‍♂️", "📜", "✨", "➕", "💀"],
     class: CardClass.NEUTRAL,
     flavorText: "He's in charge of the Annual Scarlet Monastery Blood Drive!",
@@ -239,7 +247,8 @@ export const CARDS: Card[] = [
     id: "EX1_050",
     name: "Coldlight Oracle",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/36bcaf21901f07b7c25a73cd44dcc52958c9047ec286150aa1a814f93b1e22b7.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🐸", "🎴", "🎴"],
     class: CardClass.NEUTRAL,
     flavorText:
@@ -252,7 +261,8 @@ export const CARDS: Card[] = [
     id: "ICC_854",
     name: "Arfus",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59701ac689e3805e1bd45e21333b1e2df9e8bf0c83cb7745b1e5b5aa4cecc3a8.png",
-    imgBack: "Knights of the Frozen Throne",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a71c659fbe1b3b1af32c4d685e7ff57ef32816e118db229715ded037a28d9cb0.png",
     emojiRiddle: ["🐕", "🖐", "💀"],
     class: CardClass.NEUTRAL,
     flavorText: "There must always be a Lick King.",
@@ -264,7 +274,8 @@ export const CARDS: Card[] = [
     id: "REV_238",
     name: "Theotar, the Mad Duke",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf5badb05b50d5b2991cf37ff9c020e12d7289cec7b54d3f67e98d99d24aec03.png",
-    imgBack: "Murder at Castle Nathria",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03c2c934c615a0dd5aab858273b96e488961a20cddbf34b8c21d957712bcbfcf.png",
     emojiRiddle: ["🎩", "☕", "🔄", "🎴"],
     class: CardClass.NEUTRAL,
     flavorText:
@@ -277,7 +288,8 @@ export const CARDS: Card[] = [
     id: "GVG_110",
     name: "Dr. Boom",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ff80d96bc07ea818284607762214de170f969e301cd64ef7c8c32986cd03ca63.png",
-    imgBack: "Goblins vs Gnomes",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69ffc53bc47a3c6c397c6d34566db38779fb425e416246f9cd1b5827f91f8423.png",
     emojiRiddle: ["💣", "👨‍⚕️", "💣"],
     class: CardClass.NEUTRAL,
     flavorText: "MARVEL AT HIS MIGHT!",
@@ -289,20 +301,22 @@ export const CARDS: Card[] = [
     id: "EX1_543",
     name: "King Krush",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ce53cfeba71eae0c0638ab9a03799e9d9a40bffcdf76cfa4b5562533ea0d542c.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["👑", "🦖", "⚡", "💨", "💥"],
     class: CardClass.HUNTER,
     flavorText:
       "The best defense against <Card Name> is to have someone you don’t like standing in front of you.",
     rarity: CardRarity.LEGENDARY,
     cost: 9,
-    emoji: "👑",
+    emoji: "🦖",
   },
   {
     id: "EX1_002",
     name: "The Black Knight",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5548da9deffe91eb209a3bdd4561476669a5d81befe8711c568f38982960e00e.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["⚔️", "🖤", "👑", "🛡️", "❌"],
     class: CardClass.NEUTRAL,
     flavorText:
@@ -315,7 +329,8 @@ export const CARDS: Card[] = [
     id: "BG31_BOB",
     name: "Bob the Bartender",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3dd28fedd2924909af18cc444f6b61d36381f3065a9f0ce5a7386607b3a82748.png",
-    imgBack: "Event",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🍻", "🏡", "🙂"],
     class: CardClass.NEUTRAL,
     flavorText:
@@ -328,7 +343,8 @@ export const CARDS: Card[] = [
     id: "EX1_144",
     name: "Shadowstep",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa2767b4ee1e70a61811bd1ea40d34598315a87fb01486da6e93e36c53386253.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["👣", "🌑", "↩️", "🃏"],
     class: CardClass.ROGUE,
     flavorText:
@@ -341,7 +357,8 @@ export const CARDS: Card[] = [
     id: "DRG_036",
     name: "Waxadred",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ffd09725c438cf39c80f45b46be988b719addd61426797a7be71cfdfb857ee7.png",
-    imgBack: "Descent of Dragons",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd338acd3b518b28e4457b969ade03a16b17f1c378a35baadcc8496418a82142.png",
     emojiRiddle: ["☠️", "🕯️", "🐉"],
     class: CardClass.ROGUE,
     flavorText:
@@ -354,7 +371,8 @@ export const CARDS: Card[] = [
     id: "LOOT_093",
     name: "Call to Arms",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b1c7931c72ecdfb3ffcb20726007eedd64dab77f767925e0d10cc4c2a7ac1df2.png",
-    imgBack: "Kobolds & Catacombs",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/70cd89c06ae7e7ee24d52317f9a3fdd4b48e7f388562570a027b77816324deff.png",
     emojiRiddle: ["☎️", "➡️", "💪"],
     class: CardClass.PALADIN,
     flavorText: "More personal than a text to arms.",
@@ -366,7 +384,8 @@ export const CARDS: Card[] = [
     id: "BT_601",
     name: "Skull of Gul'dan",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae10e68b0a4516c7444102286b81a9d30455bfac1cb407877d6576d0f2bd1c6f.png",
-    imgBack: "Ashes of Outland",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/845dfee0ad46401e8fe691be8ae592af09365d2a0189b79f904fe1db1b711a85.png",
     emojiRiddle: ["💀", "🎴", "🎴", "🎴"],
     class: CardClass.DEMON_HUNTER,
     flavorText:
@@ -379,7 +398,8 @@ export const CARDS: Card[] = [
     id: "TID_709",
     name: "Lady Naz'jar",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ecb737c56a008c339d398d029bc66f9d7e341981cb3f39c576c5d8c3a3bd46b9.png",
-    imgBack: "Voyage to the Sunken City",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a9238270fd4da754d6c3eeec63e5755b4e8a1cf69f5ed692e87ce1bde0777d2e.png",
     emojiRiddle: ["🎴", "🤚", "➡️", "💥", "➡️", "🥶", "➡️", "💫"],
     class: CardClass.MAGE,
     flavorText: "Talk about an identity crisis.",
@@ -391,7 +411,8 @@ export const CARDS: Card[] = [
     id: "JAM_006",
     name: "Cold Feet",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f3d09e6d7a50ddf11cbe74bb73974e2d8185182246c81572adb8adacd0175114.png",
-    imgBack: "Festival of Legends",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7c577ce7bca9dd73f3e77ba6dfcaf988e355f0e69424d5cda243b7e4c8aeef8.png",
     emojiRiddle: ["❄️", "🦶"],
     class: CardClass.DEATH_KNIGHT,
     flavorText: "Looks like some of the dancers still need to warm up.",
@@ -403,7 +424,8 @@ export const CARDS: Card[] = [
     id: "GDB_141",
     name: "Yrel, Beacon of Hope",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/057760bf9642c1c3e2fcf53f92aa6e58800a1a030de2064b053d14f485acda67.png",
-    imgBack: "The Great Dark Beyond",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6fb1465679c944d24fc61dabb5c9ac7d0a64d125c267ae25e5ea5424fdaa015e.png",
     emojiRiddle: ["👩‍🦳", "✨", "📖"],
     class: CardClass.PALADIN,
     flavorText: "<Card Name> has a lot of overdue library books.",
@@ -415,7 +437,8 @@ export const CARDS: Card[] = [
     id: "SCH_305",
     name: "Secret Passage",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4d2a21214fbb882b803db7d280aebf9d592c826f04403ec16aac75406f513577.png",
-    imgBack: "Scholomance Academy",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e37f76b6aa347d9a14d18840ccab9fe56c9eeefe80d3ada54dc0f490c75b0d75.png",
     emojiRiddle: ["🚪", "🤫", "➡️", "🃏"],
     class: CardClass.ROGUE,
     flavorText:
@@ -428,7 +451,8 @@ export const CARDS: Card[] = [
     id: "VAC_933",
     name: "Patches the Pilot",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9a343badd66592ddebfce769da6b3a62bccd1c239be827a7f595f9b859b1d367.png",
-    imgBack: "Perils in Paradise",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ee259612cb020e46c6dba20db9d15fff8abb003c2e4963c91b1a03241f3849b.png",
     emojiRiddle: ["🪂", "🏴‍☠️", "⚡"],
     class: CardClass.DEMON_HUNTER,
     flavorText: "Finally, a <Card Namw> you want to draw on turn 1!",
@@ -440,7 +464,8 @@ export const CARDS: Card[] = [
     id: "TOY_829",
     name: "The Headless Horseman",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0fb41256915827cfeb0025f5de62979dc2ce78034f2ce83b428bd58b46f67e73.png",
-    imgBack: "Whizbang's Workshop",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ad3aaf8d80c894fb7ea4a8441d6e40d3b92687a5169617a2699a947c74ef8fc.png",
     emojiRiddle: ["🎃", "🏇", "⚔️", "👻"],
     class: CardClass.DEATH_KNIGHT,
     flavorText:
@@ -453,7 +478,8 @@ export const CARDS: Card[] = [
     id: "WW_364",
     name: "Velarok Windblade",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee985227bb5e9c01810d6542d2fe224898f571b14abda21caf52019e10985c01.png",
-    imgBack: "Showdown in the Badlands",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/13eb05cb1a9cdc5c0dd4fa278c56968649a2b478e0d5b63339a3c397e12bdf0a.png",
     emojiRiddle: ["🐉", "❄️", "🌀", "⚔️", "🃏", "✨", "🔄"],
     class: CardClass.ROGUE,
     flavorText:
@@ -466,7 +492,8 @@ export const CARDS: Card[] = [
     id: "SCH_248",
     name: "Pen Flinger",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a2cc3d516bf417bb5159cbf84ee8f5f5b55f705134a998351c06454730f751e.png",
-    imgBack: "Scholomance Academy",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e37f76b6aa347d9a14d18840ccab9fe56c9eeefe80d3ada54dc0f490c75b0d75.png",
     emojiRiddle: ["✒️", "🖐️", "🎯", "💥"],
     class: CardClass.NEUTRAL,
     flavorText:
@@ -479,7 +506,8 @@ export const CARDS: Card[] = [
     id: "GVG_053",
     name: "Shieldmaiden",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95d8db06e3530426913fe9c180b5c616b89f00004444c10c90d6438d3501085f.png",
-    imgBack: "Goblins vs Gnomes",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69ffc53bc47a3c6c397c6d34566db38779fb425e416246f9cd1b5827f91f8423.png",
     emojiRiddle: ["🛡️", "👩‍🦳"],
     class: CardClass.WARRIOR,
     flavorText:
@@ -493,7 +521,7 @@ export const CARDS: Card[] = [
     name: "Varian Wrynn",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10768502ea2438abe55a7a623bb977ac01b1503a66cc19e013069c3ea811caaf.png",
     imgBack:
-      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c82738a976adaa2fda093c8825044181fa4255a9cc716ae088529b3da843f9fb.png",
     emojiRiddle: ["👑", "🗡️", "🗡️", "🎲", "🧍", "🧍", "🧍"],
     class: CardClass.WARRIOR,
     flavorText:
@@ -520,7 +548,8 @@ export const CARDS: Card[] = [
     id: "GIL_663",
     name: "Witchwood Apple",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/822b957421543dd5c95f4f91d28074bd7dfd09c18c59451a55cd6ea481cab526.png",
-    imgBack: "The Witchwood",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72487ca5d84cab53d2fca2b60be9978965bef310deb6508f8039d2117e22c25e.png",
     emojiRiddle: ["🍎", "🌲", "✨", "💀"],
     class: CardClass.DRUID,
     flavorText: "An apple a day keeps the worgen at bay.",
@@ -532,7 +561,8 @@ export const CARDS: Card[] = [
     id: "AT_045",
     name: "Aviana",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f6cd47611eae525c46c5d0b293696b7c30549d33c47ff32d4c5a15f3c840d3b.png",
-    imgBack: "The Grand Tournament",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🕊️", "✨", "🧙‍♀️", "🌕", "1️⃣"],
     class: CardClass.DRUID,
     flavorText: 'Call her "Tweety".  She\'ll find it real funny.  I PROMISE.',
@@ -544,7 +574,8 @@ export const CARDS: Card[] = [
     id: "KAR_005",
     name: "Kindly Grandmother",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77ea22b90f151f7eeb84b760a27c505d2332ab882b1283f807b555bb727199c5.png",
-    imgBack: "One Night in Karazhan",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72109a4c21eefe6907e72b4497189a451561a9ff1767814b28e9b812f70feec7.png",
     emojiRiddle: ["🧓", "🎭", "🐺"],
     class: CardClass.HUNTER,
     flavorText: '"Goodness! What… abundant drool you have."',
@@ -556,7 +587,8 @@ export const CARDS: Card[] = [
     id: "TOY_373",
     name: "Puzzlemaster Khadgar",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1e803de1ca90325dfbb769dba417de5e4fef7fe347225f7196db42c3a8663ddd.png",
-    imgBack: "Whizbang's Workshop",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ad3aaf8d80c894fb7ea4a8441d6e40d3b92687a5169617a2699a947c74ef8fc.png",
     emojiRiddle: ["🧙‍♂️", "🧩", "🧠", "🔮", "🎲"],
     class: CardClass.MAGE,
     flavorText:
@@ -569,7 +601,8 @@ export const CARDS: Card[] = [
     id: "WORK_018",
     name: "Workhorse",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cff4372c866f09a43ddcfd9dc775a6278db1b37729366c77adf534d8e01becb3.png",
-    imgBack: "Perils in Paradise",
+    imgBack:
+      "https://youre.outof.games/media/uploads/b9/5c/b95c4184-f804-4673-ba80-ab7b7db55983/cardback_434.png",
     emojiRiddle: ["🐎", "💼"],
     class: CardClass.HUNTER,
     flavorText:
@@ -582,7 +615,8 @@ export const CARDS: Card[] = [
     id: "GIL_694",
     name: "Prince Liam",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f0bcebaf30ced2c5c7490fe2256a7169b9813e1a4c11f51695b25363fce50be.png",
-    imgBack: "The Witchwood",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72487ca5d84cab53d2fca2b60be9978965bef310deb6508f8039d2117e22c25e.png",
     emojiRiddle: ["🤴", "🔄", "🐇", "➡️", "🐲"],
     class: CardClass.PALADIN,
     flavorText:
@@ -609,7 +643,8 @@ export const CARDS: Card[] = [
     id: "MIS_026",
     name: "Puppetmaster Dorian",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2155064011259505a3e8206710d1b2006a18e3d6e6170dcfd1adb581d6606ef4.png",
-    imgBack: "Whizbang's Workshop",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ad3aaf8d80c894fb7ea4a8441d6e40d3b92687a5169617a2699a947c74ef8fc.png",
     emojiRiddle: ["🎭", "🧵", "🧸", "🧙‍♂️"],
     class: CardClass.NEUTRAL,
     flavorText:
@@ -622,7 +657,8 @@ export const CARDS: Card[] = [
     id: "EDR_979",
     name: "Ancient of Yore",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f326fbc09f5ff1b0a9ba8305819a867316c31313a99101a599ba1d047b99fe0f.png",
-    imgBack: "Into the Emerald Dream",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8c4f675744c6bf5784e1e342b117d8f27fed0642d3b0246f497b29ccaeb77574.png",
     emojiRiddle: ["🌲", "🛌", "💤", "🎴", "🛡️"],
     class: CardClass.NEUTRAL,
     flavorText: "Ancient of my what?",
@@ -634,7 +670,8 @@ export const CARDS: Card[] = [
     id: "SW_450",
     name: "Sorcerer's Gambit",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e3971577a85b3a05e3c04cdf41f8c7e31b3ef61b8d53dd6e56a38ed7be60cbc.png",
-    imgBack: "United in Stormwind",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7fe1dcd2aba568921dcfcc6523cb9e2bd099ebe62417273543e2331bd5502ca3.png",
     emojiRiddle: ["🧙‍♂️", "💫", "🎰"],
     class: CardClass.MAGE,
     flavorText:
@@ -647,7 +684,8 @@ export const CARDS: Card[] = [
     id: "LOOT_542",
     name: "Kingsbane",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f471e0bf4a66012c6fa32444c14446094e945e32e94ae34aa0300ae2325407f1.png",
-    imgBack: "Kobolds & Catacombs",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/70cd89c06ae7e7ee24d52317f9a3fdd4b48e7f388562570a027b77816324deff.png",
     emojiRiddle: ["🤴", "🗡️", "💀", "🔁", "✨"],
     class: CardClass.ROGUE,
     flavorText: "But it has a soft spot for emperors.",
@@ -659,7 +697,8 @@ export const CARDS: Card[] = [
     id: "EX1_247",
     name: "Stormforged Axe",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a30d7242564ffe973efd4dd2537524261c17f83955e711d7f1d2b6db2a48156.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["⚡", "🪓", "🔋"],
     class: CardClass.SHAMAN,
     flavorText: "Yo, that's a nice axe.",
@@ -671,7 +710,8 @@ export const CARDS: Card[] = [
     id: "CFM_308",
     name: "Kun the Forgotten King",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49bf19b076378718a50c32031304dee0f1209146b7857eb7fbe813495615062c.png",
-    imgBack: "The Curse of Naxxramas",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62629457d18d94bdfae08c33d47efcb7f21e183d76fb02a3a0577a4e0c23f9e8.png",
     emojiRiddle: ["🗿", "👑", "👻", "🌪️"],
     class: CardClass.DRUID,
     flavorText:
@@ -684,7 +724,8 @@ export const CARDS: Card[] = [
     id: "NX2_034",
     name: "Rivendare, Warrider",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7431cf68e4b57b34fcbf510a9a4d4ed952e62e09f275804f5b3681f11c32d93.png",
-    imgBack: "The Grand Tournament",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b4373ebc7337b68fd1130a1276f4d2827bc7c037631fef7022d2f07fa16cb81.png",
     emojiRiddle: ["🏇", "🏇", "🏇", "🏇", "💀"],
     class: CardClass.NEUTRAL,
     flavorText: 'More like the 4 Horsemen of the "Can\'t Get Here On Time."',
@@ -696,7 +737,8 @@ export const CARDS: Card[] = [
     id: "REV_515",
     name: "Orion, Mansion Manager",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/065e7e4b2700b96296aa9d4b9ace8e9b4ec96d5e69858a6d5dc284bd4a180e54.png",
-    imgBack: "The Grand Tournament",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03c2c934c615a0dd5aab858273b96e488961a20cddbf34b8c21d957712bcbfcf.png",
     emojiRiddle: ["🌌", "🏰", "🧙‍♂️", "❓", "❓", "❓"],
     class: CardClass.MAGE,
     flavorText:
@@ -709,7 +751,8 @@ export const CARDS: Card[] = [
     id: "GDB_125",
     name: "Healthstone",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37ecd72d1d40ce1b096da9ea3316ba1403b51e4a1c0662f997e9f5650e5897c7.png",
-    imgBack: "The Great Dark Beyond",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6fb1465679c944d24fc61dabb5c9ac7d0a64d125c267ae25e5ea5424fdaa015e.png",
     emojiRiddle: ["🧪", "💚", "🔄"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.EPIC,
@@ -721,7 +764,8 @@ export const CARDS: Card[] = [
     id: "LOE_011",
     name: "Reno Jackson",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0094d88cd958838b3ae2544fe4fce2a0408d8162bf8fc0f7ca1e9868bf84cadd.png",
-    imgBack: "The League of Explorers",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/846e7c826b8225b5398c06c6972a6817d83fce058801da28044554e465a97cd9.png",
     emojiRiddle: ["💔", "➡️", "💖", "🎙️", "💰", "💬"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.LEGENDARY,
@@ -734,7 +778,8 @@ export const CARDS: Card[] = [
     id: "REV_333",
     name: "Hedge Maze",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c76fcb829f2364e2c3e3a823a93ffd9b5aafede818f3881da41df927cf88875.png",
-    imgBack: "Revenge",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03c2c934c615a0dd5aab858273b96e488961a20cddbf34b8c21d957712bcbfcf.png",
     emojiRiddle: ["🌿", "🌀", "🧩", "💀"],
     class: CardClass.DRUID,
     rarity: CardRarity.RARE,
@@ -747,7 +792,8 @@ export const CARDS: Card[] = [
     id: "EX1_095",
     name: "Gadgetzan Auctioneer",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/504ead30fd69ab822adc28ac589765594f1b772a36e6c25474ae837407e99db4.png",
-    imgBack: "Gadgetzan",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["✨", "🔁", "💰"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.RARE,
@@ -760,7 +806,8 @@ export const CARDS: Card[] = [
     id: "VAC_507",
     name: "Sunsapper Lynessa",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9ebf58260eefcc96defce115455a6537a38d76346c81926cfc31f4676cb65944.png",
-    imgBack: "Valeera's Academy",
+    imgBack:
+      "https://youre.outof.games/media/uploads/b9/5c/b95c4184-f804-4673-ba80-ab7b7db55983/cardback_434.png",
     emojiRiddle: ["👣", "☀️"],
     class: CardClass.PALADIN,
     rarity: CardRarity.LEGENDARY,
@@ -773,7 +820,8 @@ export const CARDS: Card[] = [
     id: "EX1_607",
     name: "Inner Rage",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bc286530a2962c07e7784d4f034ef3375fce67f779ef68c98ce7551753b20ab6.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["➡️", "⬅️", "🤬"],
     class: CardClass.WARRIOR,
     rarity: CardRarity.COMMON,
@@ -785,7 +833,8 @@ export const CARDS: Card[] = [
     id: "ULD_003",
     name: "Zephrys the Great",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f8ce04e14220673419bdd1a9f45c03e3d9b1e7088dafa340bdad12a8c2ad5d30.png",
-    imgBack: "Saviors of Uldum",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1ca9cc6490f10d9e75a2c86fa509f2094fee622f8c56f263e8e2558243e9935d.png",
     emojiRiddle: ["👌", "🃏", "🧙‍♂️"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.LEGENDARY,
@@ -798,7 +847,8 @@ export const CARDS: Card[] = [
     id: "YOP_035",
     name: "Moonfang",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/73aa3f4c2fb3eb8b750608e77d11d39c41cd6708c5d8e63da4b4d638db473d58.png",
-    imgBack: "One Night in Karazhan",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39e07c9614cab3a11302acf3c75c05393747f6d8ef531aff4d28597d216942fb.png",
     emojiRiddle: ["🌙", "🐺"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.LEGENDARY,
@@ -810,7 +860,8 @@ export const CARDS: Card[] = [
     id: "TOY_529",
     name: "Wheel of DEATH!!!",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf0ebcd65fe6c5a75c72a788dc61c9ce320aad1a0e0974d17c8eb7edc6073916.png",
-    imgBack: "Whizbang's Workshop",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ad3aaf8d80c894fb7ea4a8441d6e40d3b92687a5169617a2699a947c74ef8fc.png",
     emojiRiddle: ["🎡", "🎴", "💀"],
     class: CardClass.WARLOCK,
     rarity: CardRarity.LEGENDARY,
@@ -822,7 +873,8 @@ export const CARDS: Card[] = [
     id: "GIFT_02",
     name: "Jaina's Gift",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ba9fb5b1396babd48ed20bcd8ab01ab104aa7f588108266ffca24405b58dffd1.png",
-    imgBack: "Whizbang's Workshop",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["⚓", "🎁"],
     class: CardClass.MAGE,
     rarity: CardRarity.RARE,
@@ -834,7 +886,8 @@ export const CARDS: Card[] = [
     id: "ETC_521",
     name: "Cosmic Keyboard",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/20335b6540368f4e48f0f8975fa45c02fdf40fe406ea7fbdea4057d338203660.png",
-    imgBack: "Festival of Legends",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7c577ce7bca9dd73f3e77ba6dfcaf988e355f0e69424d5cda243b7e4c8aeef8.png",
     emojiRiddle: ["🌌", "🎹"],
     class: CardClass.MAGE,
     rarity: CardRarity.RARE,
@@ -846,12 +899,13 @@ export const CARDS: Card[] = [
     id: "LOE_079",
     name: "Elise Starseeker",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac22b0264f1ea290e9399eaab289c59aa25d045669c58094e178877eb398cb7f.png",
-    imgBack: "The League of Explorers",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/846e7c826b8225b5398c06c6972a6817d83fce058801da28044554e465a97cd9.png",
     emojiRiddle: ["🤠", "🗺️", "🏅", "🐵"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.LEGENDARY,
     cost: 4,
-    emoji: "🤠",
+    emoji: "🗺️",
     flavorText:
       "A large part of her job entails not mixing up the Map to the Golden Monkey with the Map to Monkey Island.",
   },
@@ -859,7 +913,8 @@ export const CARDS: Card[] = [
     id: "EX1_132",
     name: "Eye for an Eye",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/858cecdd77736da056eef77c376c34138f071589a108f34241fbdd41858b16dc.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["👀", "⚔️", "👀"],
     class: CardClass.PALADIN,
     rarity: CardRarity.COMMON,
@@ -872,7 +927,8 @@ export const CARDS: Card[] = [
     id: "CS1_129",
     name: "Inner Fire",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b015e6ba0270b54191f25ce36146f9ab306a5b83423892a986e948196ade4425.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["➡️", "⬅️", "🔥"],
     class: CardClass.PRIEST,
     rarity: CardRarity.COMMON,
@@ -885,7 +941,8 @@ export const CARDS: Card[] = [
     id: "DS1_184",
     name: "Tracking",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e442b84e869abf73eac8027f5b1d6d6c790c00f1755409621875b0d1db115d5a.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🕵️", "🦏", "🎴", "🎴", "🎴"],
     class: CardClass.HUNTER,
     rarity: CardRarity.RARE,
@@ -898,7 +955,8 @@ export const CARDS: Card[] = [
     id: "MAW_032",
     name: "Tight-Lipped Witness",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/56fc2439a22f6138d619f1ec660ce75c52f9184c007d40ce5b2322ebf18b22ef.png",
-    imgBack: "Murder at Castle Nathria",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03c2c934c615a0dd5aab858273b96e488961a20cddbf34b8c21d957712bcbfcf.png",
     emojiRiddle: ["👄", "⛔", "❓"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.EPIC,
@@ -911,7 +969,8 @@ export const CARDS: Card[] = [
     id: "REV_316",
     name: "Remornia, Living Blade",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c614c53aa6236c2b1b04f226d56c79334ea279ca86889cd0a3bca690ca06350a.png",
-    imgBack: "Revenge",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03c2c934c615a0dd5aab858273b96e488961a20cddbf34b8c21d957712bcbfcf.png",
     emojiRiddle: ["🗡️", "🩸", "🔁", "🛡️"],
     class: CardClass.WARRIOR,
     rarity: CardRarity.LEGENDARY,
@@ -924,7 +983,8 @@ export const CARDS: Card[] = [
     id: "GIFT_06",
     name: "Thrall's Gift",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6d501fab2610e5c74a76f955f9c8ac7b7f92602e2c5fba04abc22a38f2134a5.png",
-    imgBack: "Whizbang's Workshop",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🔨", "🎁"],
     class: CardClass.SHAMAN,
     rarity: CardRarity.RARE,
@@ -936,7 +996,8 @@ export const CARDS: Card[] = [
     id: "TSC_631",
     name: "Schooling",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6d44e36da3c1d09024a24da2fc0bf2d09794ab54db51b00b2b55445521048b7.png",
-    imgBack: "The School of Fish",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a9238270fd4da754d6c3eeec63e5755b4e8a1cf69f5ed692e87ce1bde0777d2e.png",
     emojiRiddle: ["🐟", "🐟", "🐟", "🖐"],
     class: CardClass.SHAMAN,
     rarity: CardRarity.COMMON,
@@ -948,7 +1009,8 @@ export const CARDS: Card[] = [
     id: "NEW1_026",
     name: "Violet Teacher",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00693b65cf64fe76e254f883dce575f3ef445c7480d93a67a976aa3eabce1b6c.png",
-    imgBack: "Legacy",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🧙‍♀️", "📚", "✨", "👩‍🎓"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.RARE,
@@ -959,9 +1021,10 @@ export const CARDS: Card[] = [
   },
   {
     id: "CFM_790",
-    name: "Mean Streets of Gadgetzan",
+    name: "Dirty Rat",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9255b17ba91e997edfe350bf33ba1bae7003264078606b9dbf0795c6b40302e8.png",
-    imgBack: "The Curse of Naxxramas",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d8c664aa30d407fd2cdfe9d19017380d5278f0f3244cd3ab826c6cbc571d5de9.png",
     emojiRiddle: ["🐀", "🖐", "👉", "♟️", "🏳️"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.EPIC,
@@ -973,7 +1036,8 @@ export const CARDS: Card[] = [
     id: "SCH_514",
     name: "Raise Dead",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2718fab78c7475e0277a2a0df7c5536e369d3e1088be928ca7bbffdc8255d422.png",
-    imgBack: "Scholomance Academy",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e37f76b6aa347d9a14d18840ccab9fe56c9eeefe80d3ada54dc0f490c75b0d75.png",
     emojiRiddle: ["⬆️", "🧟‍♂️"],
     class: CardClass.WARLOCK,
     rarity: CardRarity.COMMON,
@@ -985,7 +1049,8 @@ export const CARDS: Card[] = [
     id: "REV_906",
     name: "Sire Denathrius",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f0957fb164b8c2070fe675b780d13be5e78b4c63a1bee63569f262738672a164.png",
-    imgBack: "Revenge",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03c2c934c615a0dd5aab858273b96e488961a20cddbf34b8c21d957712bcbfcf.png",
     emojiRiddle: ["🩸", "🗡️", "🕴️", "💀", "🔁"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.LEGENDARY,
@@ -998,7 +1063,8 @@ export const CARDS: Card[] = [
     id: "FP1_011",
     name: "Webspinner",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ea749a542de8db25c17e24554d7ed7be39438957351fa0e3d4d20931d4f586d3.png",
-    imgBack: "Naxxramas",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62629457d18d94bdfae08c33d47efcb7f21e183d76fb02a3a0577a4e0c23f9e8.png",
     emojiRiddle: ["🕸️", "🕷️", "🔁", "🐗"],
     class: CardClass.HUNTER,
     rarity: CardRarity.COMMON,
@@ -1010,7 +1076,8 @@ export const CARDS: Card[] = [
     id: "EX1_160",
     name: "Power of the Wild",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d9ad531ece2b9f632e200f4deb2377380c1f4a2c5e9c62137d22621a38aa923a.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🌿", "🦁", "✨", "🔁"],
     class: CardClass.DRUID,
     flavorText:
@@ -1023,7 +1090,8 @@ export const CARDS: Card[] = [
     id: "CFM_696",
     name: "Devolve",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1089fca29b5e1af1dd576168262ce0e817dd6aba45df0803d56750591f126dc1.png",
-    imgBack: "Mean Streets of Gadgetzan",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d8c664aa30d407fd2cdfe9d19017380d5278f0f3244cd3ab826c6cbc571d5de9.png",
     emojiRiddle: ["🐉", "➡️", "🐇"],
     class: CardClass.SHAMAN,
     rarity: CardRarity.RARE,
@@ -1036,7 +1104,8 @@ export const CARDS: Card[] = [
     id: "EX1_190",
     name: "High Inquisitor Whitemane",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/234def8ae69b5e8379298992370f1404f398e0733d623c2b7e691f6ea85fe245.png",
-    imgBack: "Legacy",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["👑", "🐺", "⚪️", "👩‍🦳", "💫"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.LEGENDARY,
@@ -1048,7 +1117,8 @@ export const CARDS: Card[] = [
     id: "RLK_222",
     name: "Astalor Bloodsworn",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe770e004ce6632e50c8ccbe297adb3e17da7d38f74003b0aba45ea24fa68d19.png",
-    imgBack: "March of the Lich King",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b4373ebc7337b68fd1130a1276f4d2827bc7c037631fef7022d2f07fa16cb81.png",
     emojiRiddle: ["🧙‍♂️", "➡️", "🛡️", "➡️", "🔥"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.LEGENDARY,
@@ -1060,7 +1130,8 @@ export const CARDS: Card[] = [
     id: "EX1_059",
     name: "Crazed Alchemist",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14167de486507994056c3f75c1ca3ddba7fef57614c8fdac688b1fee228130e5.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🤪", "🍷", "🍸", "🍹"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.RARE,
@@ -1073,7 +1144,8 @@ export const CARDS: Card[] = [
     id: "DMF_230",
     name: "Il'gynoth",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85c98d91e6848fd7c36267be2a99257be27ecc85bd1a8f8b8727457d8160e8f3.png",
-    imgBack: "Madness At The Darkmoon Faire",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2733a1c895d157fc72e1355354017805faaaf44e3ad349bab2460dab7875631d.png",
     emojiRiddle: ["🤕", "💊", "➡️", "💀"],
     class: CardClass.DEMON_HUNTER,
     rarity: CardRarity.LEGENDARY,
@@ -1085,7 +1157,8 @@ export const CARDS: Card[] = [
     id: "ETC_418",
     name: "Instrument Tech",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1edbe1406139408e4d74e7008de11eb0cdc82640d16372c52fa0048ed8075c6.png",
-    imgBack: "Festival of Legends",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7c577ce7bca9dd73f3e77ba6dfcaf988e355f0e69424d5cda243b7e4c8aeef8.png",
     emojiRiddle: ["🎸", "⚙️", "🎶"],
     class: CardClass.NEUTRAL,
     rarity: CardRarity.COMMON,
@@ -1097,7 +1170,8 @@ export const CARDS: Card[] = [
     id: "TOY_101",
     name: "Night Elf Huntress",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f9b37c24e603d59e00c28f4f115ca3b7f9cdaa8a1d39d0ced578324ba00a1b9.png",
-    imgBack: "Legacy",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🌇", "🧝‍♀️", "🏹"],
     class: CardClass.NEUTRAL,
     flavorText: "A triple threat, all on her own.",
@@ -1109,7 +1183,8 @@ export const CARDS: Card[] = [
     id: "VAC_304",
     name: "Tidepool Pupil",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5980308e2a9f5ffe93312dfc640cb732d8b3ec6a9e8c907ddf633c81c7cf48d.png",
-    imgBack: "Perils in Paradise",
+    imgBack:
+      "https://youre.outof.games/media/uploads/b9/5c/b95c4184-f804-4673-ba80-ab7b7db55983/cardback_434.png",
     emojiRiddle: ["🦎", "🌊", "📚", "✨"],
     class: CardClass.NEUTRAL,
     flavorText: '"Z-I-N A-S-H-A-R-Y!"',
@@ -1121,7 +1196,8 @@ export const CARDS: Card[] = [
     id: "DMF_118",
     name: "Tickatus",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b433ec300ebc4c412be86ab193d4edc1169d89fea7ecf963c399f42859e019e1.png",
-    imgBack: "Madness At The Darkmoon Faire",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2733a1c895d157fc72e1355354017805faaaf44e3ad349bab2460dab7875631d.png",
     emojiRiddle: ["🧨", "🔥", "🎟️", "🕳️"],
     class: CardClass.WARLOCK,
     rarity: CardRarity.LEGENDARY,
@@ -1133,7 +1209,8 @@ export const CARDS: Card[] = [
     id: "SW_046",
     name: "City Tax",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30470b178813314fd5437f8e92c1569710407b0d9040813f63c7c200b958fbcf.png",
-    imgBack: "United in Stormwind",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7fe1dcd2aba568921dcfcc6523cb9e2bd099ebe62417273543e2331bd5502ca3.png",
     emojiRiddle: ["🏙️", "💰", "📜"],
     class: CardClass.PALADIN,
     flavorText:
@@ -1146,7 +1223,8 @@ export const CARDS: Card[] = [
     id: "REV_011",
     name: "The Harvester of Envy",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b804d1cc44a6edb21acdc869ba9b64ea9df4e35b3b7bfc1c15d01ecb03b8f36b.png",
-    imgBack: "Murder at Castle Nathria",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03c2c934c615a0dd5aab858273b96e488961a20cddbf34b8c21d957712bcbfcf.png",
     emojiRiddle: ["🧛‍♂️", "💰", "🧠", "🔄", "❌"],
     class: CardClass.PRIEST,
     rarity: CardRarity.LEGENDARY,
@@ -1159,7 +1237,8 @@ export const CARDS: Card[] = [
     id: "NEW1_021",
     name: "Doomsayer",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5370b94468ae50e17117c0edbd0ff467e73aef567334e703c161fc5cf97b500.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["💀", "⏳", "🔥", "❌"],
     class: CardClass.NEUTRAL,
     flavorText:
@@ -1172,8 +1251,9 @@ export const CARDS: Card[] = [
     id: "OG_281",
     name: "Beckoner of Evil",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ce03b0c53ca4a9d69e6a46b2917da7fc9aa54414de8c12d822c8eaa06c54faef.png",
-    imgBack: "Whispers of the Old Gods",
-    emojiRiddle: ["🎤", "💀", "👉", "👁️", "➕2", "➕2"],
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66c27d11b062bd227beebda0e635bf3ff6b7462c79e27267825fa7b56fdc3610.png",
+    emojiRiddle: ["🎤", "💀", "👉", "👁️", "➕", "➕"],
     class: CardClass.NEUTRAL,
     flavorText: "Here, Evil!  C'mon boy!",
     rarity: CardRarity.COMMON,
@@ -1184,7 +1264,8 @@ export const CARDS: Card[] = [
     id: "EX1_556",
     name: "Harvest Golem",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e7caa01e6c09433a40a1a89e2864879fbeefee35b56362371268ca3c8ec87d08.png",
-    imgBack: "Classic",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🌾", "🤖"],
     class: CardClass.NEUTRAL,
     flavorText:
@@ -1197,7 +1278,8 @@ export const CARDS: Card[] = [
     id: "TOY_102",
     name: "Footman",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a7e897cec4edf8f3b781a3cfd1da0f8c6d4bb7f2753f33e6e9aa67239ddefea.png",
-    imgBack: "Legacy",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["👣", "🧔"],
     class: CardClass.NEUTRAL,
     flavorText: "Ha ha HAAAH huHAH!",
@@ -1209,7 +1291,8 @@ export const CARDS: Card[] = [
     id: "KAR_009",
     name: "Babbling Book",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f37d46c1a0e83c19ddc271750d8c00ea08d8789ebed082206d92ac82735d5239.png",
-    imgBack: "One Night in Karazhan",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72109a4c21eefe6907e72b4497189a451561a9ff1767814b28e9b812f70feec7.png",
     emojiRiddle: ["📘", "💋", "📜", "🐑"],
     class: CardClass.MAGE,
     flavorText:
@@ -1222,7 +1305,8 @@ export const CARDS: Card[] = [
     id: "CFM_855",
     name: "Defias Cleaner",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a61d10396ebfc5c475c0a58ba1c7d47f4801c6d58018dc2e628e6370604cc4c.png",
-    imgBack: "Mean Streets of Gadgetzan",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d8c664aa30d407fd2cdfe9d19017380d5278f0f3244cd3ab826c6cbc571d5de9.png",
     emojiRiddle: ["👤", "🧹"],
     class: CardClass.NEUTRAL,
     flavorText:
@@ -1235,7 +1319,8 @@ export const CARDS: Card[] = [
     id: "WON_113",
     name: "Champions of Azeroth",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c7b6db3dc32e98c1c7b3054bbd2731eb3abd487d04f7d875c211558bc9a7ee3b.png",
-    imgBack: "Event",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/556d677acbb31fececd42912cf003aabeb3bb6efb571bb43de83e6b763763f2c.png",
     emojiRiddle: ["🥇", "🌎"],
     class: CardClass.NEUTRAL,
     flavorText: "Weeee are the champions of the Wooorld… of Warcraft!",
@@ -1247,7 +1332,8 @@ export const CARDS: Card[] = [
     id: "VAC_525",
     name: "The Ryecleaver",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a6e4dfb0877979fbf1490faf965ac9bb7247f140ff2bd668971cda199c522a6.png",
-    imgBack: "Perils in Paradise",
+    imgBack:
+      "https://youre.outof.games/media/uploads/b9/5c/b95c4184-f804-4673-ba80-ab7b7db55983/cardback_434.png",
     emojiRiddle: ["9️⃣", "🥪"],
     class: CardClass.WARRIOR,
     flavorText:
@@ -1260,7 +1346,8 @@ export const CARDS: Card[] = [
     id: "SW_039",
     name: "Final Showdown",
     img: "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fcd6d34ec90626077bc5a16b5ced9ef5cd78a7b54de5a4e3b5aadfbe19ceef4b.png",
-    imgBack: "United in Stormwind",
+    imgBack:
+      "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7fe1dcd2aba568921dcfcc6523cb9e2bd099ebe62417273543e2331bd5502ca3.png",
     emojiRiddle: ["❓", "🎭", "🏁", "🌀"],
     class: CardClass.DEMON_HUNTER,
     flavorText: "Finally. The last Hearthstone card.",
@@ -1269,18 +1356,3 @@ export const CARDS: Card[] = [
     emoji: "❓",
   },
 ];
-
-// {
-//   id: "",
-//   name: "",
-//   img: "",
-//   imgBack:
-//     "",
-//   emojiRiddle: [],
-//   class: ,
-//   flavorText:
-//     "",
-//   rarity: ,
-//   cost: ,
-//   emoji: "",
-// },
