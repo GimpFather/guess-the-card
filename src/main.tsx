@@ -16,14 +16,13 @@ createRoot(document.getElementById("root")!).render(
       <IntlProvider messages={en_EN} locale="en">
         <CssBaseline>
           <ToastContainer
-            position="bottom-center"
+            position="top-right"
             autoClose={3000}
             hideProgressBar={false}
             newestOnTop
             limit={3}
             closeOnClick
             draggable
-            pauseOnHover
             theme="light"
           />
           <BrowserRouter>

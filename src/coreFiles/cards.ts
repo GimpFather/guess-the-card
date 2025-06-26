@@ -89,7 +89,7 @@ export const CARDS: Card[] = [
     imgBack:
       "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69ffc53bc47a3c6c397c6d34566db38779fb425e416246f9cd1b5827f91f8423.png",
     emojiRiddle: ["🤴", "👃", "💰"],
-    class: CardClass.NEUTRAL,
+    class: CardClass.ROGUE,
     flavorText:
       "<Card Name> believes in supply and demand. He supplies the beatings and demands you pay up!",
     rarity: CardRarity.LEGENDARY,
@@ -754,7 +754,7 @@ export const CARDS: Card[] = [
     imgBack:
       "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6fb1465679c944d24fc61dabb5c9ac7d0a64d125c267ae25e5ea5424fdaa015e.png",
     emojiRiddle: ["🧪", "💚", "🔄"],
-    class: CardClass.NEUTRAL,
+    class: CardClass.WARLOCK,
     rarity: CardRarity.EPIC,
     cost: 0,
     emoji: "🧪",
